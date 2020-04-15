@@ -126,15 +126,11 @@ img{
         display: flex;
         justify-content: space-between;
     }
-@media (max-width:768px ){
-    .footer-menu .menu{
-        display: none;
-    }
-}
+
     
     @media (max-width: 768px){
         .footer-menu .menu{
-            display: flex;
+            display: none;
         }
     
         .footer-menu .menu li{
